@@ -1,0 +1,28 @@
+{
+  "name": "promopilot-ai-agents",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": ["ai", "automotive", "marketing", "agents", "openai"],
+  "author": "",
+  "license": "ISC",
+  "description": "PromoPilot AI - Automotive marketing automation agent using OpenAI Agents SDK",
+  "dependencies": {
+    "openai": "^5.1.0",
+    "openai-agents": "^1.1.0",
+    "csv-parser": "^3.0.0",
+    "fs-extra": "^11.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "jest": "^29.7.0"
+  }
+}
